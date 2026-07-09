@@ -1,0 +1,19 @@
+{
+  "stage_id": "1013R_R223P_2_ART_CLASSROOM_PRACTICE_PATTERN_REGISTRY",
+  "registry_id": "R223P_2_appreciation_scaffold_type_registry",
+  "status": "candidate_registry_only",
+  "parent_pattern": "artwork_appreciation",
+  "types": [
+    {"type_id": "masterpiece", "cn_label": "大师作品", "scaffold_goal": "建立审美高度和观察方法"},
+    {"type_id": "peer_work", "cn_label": "同龄作品", "scaffold_goal": "降低心理门槛，提供可达范例"},
+    {"type_id": "teacher_sample", "cn_label": "教师范作", "scaffold_goal": "对齐任务预期和质量底线"},
+    {"type_id": "life_photo", "cn_label": "生活图片", "scaffold_goal": "建立真实情境和观察对象"},
+    {"type_id": "folk_art", "cn_label": "民间艺术作品", "scaffold_goal": "支撑文化理解、纹样、工艺和寓意"},
+    {"type_id": "museum_resource", "cn_label": "展馆 / 数字资源", "scaffold_goal": "提供沉浸式输入和观看路径"},
+    {"type_id": "step_diagram", "cn_label": "步骤图 / 半成品图", "scaffold_goal": "显性化过程和阶段检查点"},
+    {"type_id": "student_half_done", "cn_label": "学生半成品", "scaffold_goal": "支撑中途调控和二次修改"},
+    {"type_id": "right_wrong_compare", "cn_label": "正误对照", "scaffold_goal": "突破重难点和建立判断依据"},
+    {"type_id": "before_after_revision", "cn_label": "前后修改作品", "scaffold_goal": "引导反思与二改"}
+  ],
+  "candidate_rule": "An event with appreciation_scaffold_type should link to observation_prompt and expected_student_responses."
+}
