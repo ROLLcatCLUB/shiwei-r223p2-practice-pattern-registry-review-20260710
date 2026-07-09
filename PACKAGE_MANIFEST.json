@@ -1,0 +1,51 @@
+{
+  "stage_id": "1013R_R223P_2_ART_CLASSROOM_PRACTICE_PATTERN_REGISTRY",
+  "package_type": "art_classroom_practice_pattern_candidate_registry_review",
+  "created_at": "2026-07-10",
+  "decision": "PASS_CONTINUE_TO_R223P_3_SCHEMA_V0_2_DELTA",
+  "boundary": {
+    "candidate_registry_only": true,
+    "schema_v0_2_published": false,
+    "r223m_p5_schema_modified": false,
+    "r222d_component_library_modified": false,
+    "existing_teacher_drafts_modified": false,
+    "formal_ui": false,
+    "r97b_modified": false,
+    "frontend_backend_modified": false,
+    "runtime_connected": false,
+    "provider_model_connected": false,
+    "prompt_modified": false,
+    "database_written": false,
+    "formal_apply": false
+  },
+  "required_patterns": [
+    "observation_discovery",
+    "comparison_judgment",
+    "artwork_appreciation",
+    "teacher_demonstration",
+    "micro_practice",
+    "material_experiment",
+    "idea_generation",
+    "creation_progression",
+    "showcase_evaluation",
+    "closure_transfer"
+  ],
+  "files": [
+    "R223P_2_art_practice_pattern_registry.json",
+    "R223P_2_art_practice_pattern_registry.md",
+    "R223P_2_demonstration_type_registry.json",
+    "R223P_2_micro_practice_type_registry.json",
+    "R223P_2_appreciation_scaffold_type_registry.json",
+    "R223P_2_aesthetic_language_focus_registry.json",
+    "R223P_2_pattern_relation_map.md",
+    "R223P_2_pattern_to_screen_component_evidence_mapping.md",
+    "R223P_2_pattern_to_unit_intensity_router_mapping.md",
+    "R223P_2_teacher_default_vs_review_ledger_policy.md",
+    "R223P_2_registry_validation_report.md",
+    "validate_1013R_R223P_2_pattern_registry.py",
+    "validate_1013R_R223P_2_pattern_registry_result.json",
+    "PACKAGE_MANIFEST.json",
+    "README_FOR_GPT_REVIEW.md",
+    "ZIP_SHA256.txt"
+  ]
+}
