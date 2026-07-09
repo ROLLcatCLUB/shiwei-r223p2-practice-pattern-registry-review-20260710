@@ -1,0 +1,23 @@
+{
+  "stage_id": "1013R_R223P_2_ART_CLASSROOM_PRACTICE_PATTERN_REGISTRY",
+  "registry_id": "R223P_2_aesthetic_language_focus_registry",
+  "status": "candidate_registry_only",
+  "layer": "art_subject_adapter",
+  "items": [
+    {"id": "primary_secondary", "cn_label": "主次", "use": "构图、画面组织、展示评价"},
+    {"id": "density", "cn_label": "疏密", "use": "构图、纹样、装饰、画面节奏"},
+    {"id": "rhythm", "cn_label": "节奏", "use": "线条、纹样、色块、画面组织"},
+    {"id": "warm_cool", "cn_label": "冷暖", "use": "色彩感知、色彩表达、作品评价"},
+    {"id": "light_dark", "cn_label": "明暗", "use": "色彩、层次、空间表达"},
+    {"id": "layering", "cn_label": "层次", "use": "材料、画面组织、综合材料"},
+    {"id": "texture", "cn_label": "肌理", "use": "材料技法、纸印、综合材料"},
+    {"id": "edge", "cn_label": "边缘", "use": "版画、剪纸、线描、纸印"},
+    {"id": "stability", "cn_label": "稳定", "use": "设计应用、结构、工艺"},
+    {"id": "blank_space", "cn_label": "留白", "use": "构图、国画、图文设计"},
+    {"id": "symmetry", "cn_label": "对称", "use": "剪纸、纹样、图形设计"},
+    {"id": "hue", "cn_label": "色相", "use": "色彩感知、调色、色彩表达"},
+    {"id": "material_quality", "cn_label": "材质感", "use": "材料技法、综合材料、工艺"},
+    {"id": "decorativeness", "cn_label": "装饰性", "use": "民间美术、图案、设计应用"},
+    {"id": "functionality", "cn_label": "功能性", "use": "设计应用、文具改造、产品设计"}
+  ]
+}
