@@ -1,0 +1,1245 @@
+{
+  "passed": true,
+  "check_count": 308,
+  "failed": 0,
+  "failures": [],
+  "decision": "PASS_CONTINUE_TO_R223P_3_SCHEMA_V0_2_DELTA",
+  "checks": [
+    {
+      "check": "required_file:R223P_2_art_practice_pattern_registry.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_art_practice_pattern_registry.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_demonstration_type_registry.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_micro_practice_type_registry.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_appreciation_scaffold_type_registry.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_aesthetic_language_focus_registry.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_pattern_relation_map.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_pattern_to_screen_component_evidence_mapping.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_pattern_to_unit_intensity_router_mapping.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_teacher_default_vs_review_ledger_policy.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_2_registry_validation_report.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:README_FOR_GPT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "manifest_decision",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:schema_v0_2_published",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:r223m_p5_schema_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:r222d_component_library_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:existing_teacher_drafts_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:formal_ui",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:r97b_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:frontend_backend_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:runtime_connected",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:provider_model_connected",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:prompt_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:database_written",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:formal_apply",
+      "passed": true
+    },
+    {
+      "check": "pattern_count_10",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:observation_discovery",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:observation_discovery:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:observation_discovery",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:comparison_judgment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:comparison_judgment:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:comparison_judgment",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:artwork_appreciation",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:artwork_appreciation:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:artwork_appreciation",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:teacher_demonstration",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:teacher_demonstration:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:teacher_demonstration",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:micro_practice",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:micro_practice:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:micro_practice",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:material_experiment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:material_experiment:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:material_experiment",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:idea_generation",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:idea_generation:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:idea_generation",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:creation_progression",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:creation_progression:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:creation_progression",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:showcase_evaluation",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:showcase_evaluation:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:showcase_evaluation",
+      "passed": true
+    },
+    {
+      "check": "pattern_exists:closure_transfer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:pattern_id",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:cn_label",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:layer",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:core_function",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:student_problem_solved",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:suitable_lesson_types",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:suitable_grade_bands",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:common_lesson_position",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:typical_teacher_moves",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:expected_student_responses",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:likely_misconceptions_or_failures",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:teacher_follow_up_or_rescue",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:screen_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:component_trigger_candidates",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:assessment_alignment",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:misuse_risks",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:relation_to_unit_lesson_practice_intensity_router",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:teacher_default_view_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:review_ledger_policy",
+      "passed": true
+    },
+    {
+      "check": "pattern_key:closure_transfer:source_basis",
+      "passed": true
+    },
+    {
+      "check": "pattern_layer:closure_transfer",
+      "passed": true
+    },
+    {
+      "check": "sub_registry:R223P_2_demonstration_type_registry.json",
+      "passed": true,
+      "count": 12
+    },
+    {
+      "check": "sub_registry:R223P_2_micro_practice_type_registry.json",
+      "passed": true,
+      "count": 11
+    },
+    {
+      "check": "sub_registry:R223P_2_appreciation_scaffold_type_registry.json",
+      "passed": true,
+      "count": 10
+    },
+    {
+      "check": "sub_registry:R223P_2_aesthetic_language_focus_registry.json",
+      "passed": true,
+      "count": 15
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:observation_discovery",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:comparison_judgment",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:artwork_appreciation",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:teacher_demonstration",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:micro_practice",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:material_experiment",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:idea_generation",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:creation_progression",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:showcase_evaluation",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_relation_map.md:closure_transfer",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:observation_discovery",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:comparison_judgment",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:artwork_appreciation",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:teacher_demonstration",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:micro_practice",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:material_experiment",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:idea_generation",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:creation_progression",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:showcase_evaluation",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_screen_component_evidence_mapping.md:closure_transfer",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_unit_intensity_router_mapping.md:unit_phase_role",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_unit_intensity_router_mapping.md:practice_intensity",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_pattern_to_unit_intensity_router_mapping.md:teacher_support_density",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_teacher_default_vs_review_ledger_policy.md:teacher default view",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_teacher_default_vs_review_ledger_policy.md:review ledger",
+      "passed": true
+    },
+    {
+      "check": "term:R223P_2_teacher_default_vs_review_ledger_policy.md:practice_pattern_type",
+      "passed": true
+    },
+    {
+      "check": "forbidden:schema_v0_2_published\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden:r97b_modified\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden:formal_ui\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden:runtime_connected\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden:provider_model_connected\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden:database_written\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden:formal_apply\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden:general_pedagogy_core\"",
+      "passed": true
+    },
+    {
+      "check": "forbidden:science_experiment",
+      "passed": true
+    },
+    {
+      "check": "forbidden:math_variation",
+      "passed": true
+    },
+    {
+      "check": "forbidden:chinese_reading",
+      "passed": true
+    }
+  ]
+}
