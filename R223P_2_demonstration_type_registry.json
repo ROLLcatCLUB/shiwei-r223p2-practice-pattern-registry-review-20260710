@@ -1,0 +1,21 @@
+{
+  "stage_id": "1013R_R223P_2_ART_CLASSROOM_PRACTICE_PATTERN_REGISTRY",
+  "registry_id": "R223P_2_demonstration_type_registry",
+  "status": "candidate_registry_only",
+  "parent_pattern": "teacher_demonstration",
+  "types": [
+    {"type_id": "full_demo", "cn_label": "完整示范", "solves": "学生对全过程毫无概念", "default_policy": "review_ledger_first"},
+    {"type_id": "partial_demo", "cn_label": "局部示范", "solves": "某个局部反复出错", "default_policy": "teacher_default_brief"},
+    {"type_id": "drafting_demo", "cn_label": "起稿示范", "solves": "不会落笔、构图失衡", "default_policy": "teacher_default_brief"},
+    {"type_id": "composition_demo", "cn_label": "构图示范", "solves": "主体不明、画面太散或太挤", "default_policy": "review_ledger_first"},
+    {"type_id": "tool_material_demo", "cn_label": "工具材料示范", "solves": "不会拿、压、粘、调、清洁", "default_policy": "teacher_default_brief"},
+    {"type_id": "technique_demo", "cn_label": "技法示范", "solves": "知道主题但不会表现方法", "default_policy": "teacher_default_brief"},
+    {"type_id": "difficulty_focus_demo", "cn_label": "重难点突破示范", "solves": "课堂卡点集中、失败率高", "default_policy": "review_ledger_first"},
+    {"type_id": "error_repair_demo", "cn_label": "错误修补示范", "solves": "学生出错后不知道如何救回", "default_policy": "teacher_default_brief"},
+    {"type_id": "slow_motion_demo", "cn_label": "慢动作示范", "solves": "低年级或精细动作看不清", "default_policy": "teacher_default_brief"},
+    {"type_id": "semi_finished_demo", "cn_label": "半成品示范", "solves": "学生只见结果、不懂中间层次", "default_policy": "review_ledger_first"},
+    {"type_id": "video_demo", "cn_label": "视频示范", "solves": "需要暂停、回放或动态展示", "default_policy": "review_ledger_first"},
+    {"type_id": "student_work_reverse_demo", "cn_label": "学生作品反向示范", "solves": "利用真实共性问题建立判断标准", "default_policy": "review_ledger_first"}
+  ],
+  "candidate_rule": "An event with demonstration_type should link to micro_practice_type or transition_to_formal_creation."
+}
