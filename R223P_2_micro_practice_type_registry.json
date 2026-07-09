@@ -1,0 +1,20 @@
+{
+  "stage_id": "1013R_R223P_2_ART_CLASSROOM_PRACTICE_PATTERN_REGISTRY",
+  "registry_id": "R223P_2_micro_practice_type_registry",
+  "status": "candidate_registry_only",
+  "parent_pattern": "micro_practice",
+  "types": [
+    {"type_id": "single_stroke", "cn_label": "试画一笔", "student_output": "线条条带", "serve_final_work": "正式作品线条或笔触"},
+    {"type_id": "color_mix", "cn_label": "调一小块色", "student_output": "色卡", "serve_final_work": "正式作品色彩方案"},
+    {"type_id": "print_test", "cn_label": "试印一次", "student_output": "印痕小样", "serve_final_work": "正式纹样或肌理"},
+    {"type_id": "pattern_cut", "cn_label": "剪一个纹样", "student_output": "纹样小样", "serve_final_work": "成品边框或主体局部"},
+    {"type_id": "layout_place", "cn_label": "摆一个构图", "student_output": "摆拍或缩略构图", "serve_final_work": "正式画面组织"},
+    {"type_id": "material_sample", "cn_label": "做一个材料小样", "student_output": "材料小样", "serve_final_work": "正式材料或工艺路径"},
+    {"type_id": "detail_sketch", "cn_label": "画一个局部草图", "student_output": "局部草图", "serve_final_work": "主题关键局部"},
+    {"type_id": "thumbnail_sketch", "cn_label": "画多个缩略图", "student_output": "2-3 个缩略方案", "serve_final_work": "构图方案选择"},
+    {"type_id": "technique_try", "cn_label": "做一个技法尝试", "student_output": "技法试错结果", "serve_final_work": "正式技法应用"},
+    {"type_id": "combination_plan", "cn_label": "做一个组合方案", "student_output": "方案表或组合草图", "serve_final_work": "设计应用作品"},
+    {"type_id": "design_reason", "cn_label": "说一个设计理由", "student_output": "口头理由或句式记录", "serve_final_work": "展示说明和评价证据"}
+  ],
+  "candidate_rule": "Each micro_practice_type must state how it serves final work."
+}
